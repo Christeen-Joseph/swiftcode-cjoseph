@@ -1,1 +1,6 @@
-
+#message-pane {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Salto_del_Angel-Canaima-Venezuela08.JPG/1200px-Salto_del_Angel-Canaima-Venezuela08.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
