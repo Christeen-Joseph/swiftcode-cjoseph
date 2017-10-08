@@ -1,6 +1,21 @@
 #message-pane {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Salto_del_Angel-Canaima-Venezuela08.JPG/1200px-Salto_del_Angel-Canaima-Venezuela08.JPG);
+    //background: url(https://15809-presscdn-0-93-pagely.netdna-ssl.com/wp-content/uploads/2016/02/MTIyNzYxMTA2MjEyMjkxMTc0.png);
+    //background: url(http://i1.kym-cdn.com/entries/icons/original/000/018/385/Rs_634x1024-130605092844-634.DespMe2.mh.060513.jpg);
+    //background: url(https://media.tenor.com/images/a321aa51cfd5fa6849041b394565cdd5/tenor.gif);
+    background: url(http://treehouse-code-samples.s3.amazonaws.com/Java/spring-basics/compiler-bot.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+}
+.message-card {
+ max-width:75%;
+ border-radius:10px;
+ padding:10px;
+ font-size:18px;
+}
+.message-time {
+margin-top: 4px;
+float: right;
+color: #666666;
+font-size: 10px;
 }
