@@ -14,8 +14,8 @@
         <div ng-repeat="message in messages" layout="column" layout-align="{{message.sender=='BOT'?'start start':'start end'}}">
             <md-card class="message-card"
             ng-style="message.sender=='BOT'?
-            {'background-color':'#5f42f4'}:
-            {'background-color':'#42f4a7'}">
+            {'background-color':'#42f486'}:
+            {'background-color':'#f4d942'}">
             <span>{{message.text}}</span>
                 <span ng-bind-html="trust(message.feedResponse.description)">{{message.feedResponse.description}}</span>
             <span class="message-time" layout-align="end end">
@@ -31,7 +31,7 @@
                 <input ng-model="userMessage">
             </md-input-container>
         </form>
-        <md-button flex="10" class="md-icon-button" ng-click="sendMessage()">
+        <md-button flex="10" class="md-fab md-accent md-icon-button" ng-click="sendMessage()">
             <md-icon md-svg-icon="/assets/images/ic_send_black_24px.svg"></md-icon>
         </md-button>
     </md-card>
